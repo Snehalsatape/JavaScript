@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    
+
+        // let randomnumber = Math.random()*10
+        // randomnumber = Math.floor(randomnumber)+1
+        // console.log(randomnumber)
+
+        // userip =prompt("Enter a number")
+        // userip = parseInt(userip)
+
+        // if(userip== randomnumber){
+        //     console.log("'right guess")
+        // }else{
+        //     console.log("wrong guess")
+        // }
+
+        // let randomnumber = Math.random()*10
+        // randomnumber = Math.floor(randomnumber)+1
+        // console.log(randomnumber)
+        count = 0
+        fetch("https://fakestoreapi.com/products")
+            .then((res) => res.json())
+            .then((json) => console.log(json));
+            console.log("snehal")
+
+        // while (true) {
+        //     ip =parseInt(prompt("Enter your guess"));
+
+        //     if(ip> randomnumber){
+        //         alert("go lower");
+        //         count++;
+        //     }else if (ip < randomnumber){
+        //         alert("go higher");
+        //         count++;
+        //     }else{
+        //         alert("you have guessed in it" + count + "attempts");
+        //         break;
+        //     }
+        // }
+            
+
+
+    </script>
+</body>
+</html>
